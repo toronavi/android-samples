@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NavigationSample</string>
+    <string name="first_fragment">FirstFragment</string>
+    <string name="second_fragment">SecondFragment</string>
+    <string name="third_fragment">ThirdFragment</string>
+    <string name="force_fragment">ForceFragment</string>
+    <string name="fifth_fragment">FifthFragment</string>
+    <string name="next">NEXT</string>
+</resources>

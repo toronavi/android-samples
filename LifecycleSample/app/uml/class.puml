@@ -1,0 +1,11 @@
+@startuml
+
+abstract class BaseActivity
+abstract class BaseFragment
+
+BaseActivity <|-- FirstActivity
+BaseActivity <|-- SecondActivity
+BaseFragment <|-- FirstFragment
+BaseFragment <|-- SecondFragment
+
+@enduml

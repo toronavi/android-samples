@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ViewModelSample</string>
+    <string name="first_fragment">FirstFragment</string>
+    <string name="second_fragment">SecondFragment</string>
+    <string name="third_fragment">ThirdFragment</string>
+    <string name="fragment">Fragment</string>
+    <string name="view_model">ViewModel</string>
+    <string name="next">NEXT</string>
+    <string name="count_up">COUNT UP</string>
+</resources>
