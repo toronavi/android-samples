@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tf.android.navigationsample">
+    package="com.toronavi.android.navigationsample">
 
     <application
         android:allowBackup="true"
