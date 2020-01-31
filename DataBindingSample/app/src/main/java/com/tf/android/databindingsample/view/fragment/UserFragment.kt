@@ -32,7 +32,7 @@ class UserFragment : Fragment() {
         val viewModel = ViewModelProviders.of(this)[UserViewModel::class.java]
 
         binding.lifecycleOwner = viewLifecycleOwner
-        binding.viewmodel = viewModel
+        binding.viewModel = viewModel
 
         val adapter = ArrayAdapter(
             requireContext(),
