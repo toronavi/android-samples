@@ -6,6 +6,8 @@ apply plugin: 'kotlin-android-extensions'
 
 apply plugin: "androidx.navigation.safeargs.kotlin"
 
+apply plugin: 'kotlin-kapt'
+
 android {
     compileSdkVersion 29
     defaultConfig {
@@ -29,6 +31,9 @@ android {
     kotlinOptions {
         // for AppBarConfiguration
         jvmTarget = jvm_version
+    }
+    dataBinding {
+        enabled = true
     }
 }
 
