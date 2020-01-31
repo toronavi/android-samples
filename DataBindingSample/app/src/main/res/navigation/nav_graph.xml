@@ -6,7 +6,7 @@
     app:startDestination="@id/userFragment">
     <fragment
         android:id="@+id/userFragment"
-        android:name="com.tf.android.databindingsample.view.fragment.UserFragment"
+        android:name="com.toronavi.android.databindingsample.view.fragment.UserFragment"
         android:label="UserFragment"
         tools:layout="@layout/fragment_user" />
 </navigation>

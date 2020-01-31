@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.tf.android.viewmodelsample.fragment.FirstFragment"
+        android:name="com.toronavi.android.viewmodelsample.fragment.FirstFragment"
         android:label="@string/first_fragment"
         tools:layout="@layout/fragment_first">
         <action
@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.tf.android.viewmodelsample.fragment.SecondFragment"
+        android:name="com.toronavi.android.viewmodelsample.fragment.SecondFragment"
         android:label="@string/second_fragment"
         tools:layout="@layout/fragment_second">
         <action
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/thirdFragment"
-        android:name="com.tf.android.viewmodelsample.fragment.ThirdFragment"
+        android:name="com.toronavi.android.viewmodelsample.fragment.ThirdFragment"
         android:label="@string/third_fragment"
         tools:layout="@layout/fragment_third" />
 </navigation>

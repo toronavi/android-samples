@@ -9,7 +9,7 @@ apply plugin: "androidx.navigation.safeargs.kotlin"
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.tf.android.livedatasample"
+        applicationId "com.toronavi.android.livedatasample"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
