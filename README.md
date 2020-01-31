@@ -6,6 +6,7 @@
 2. NavigationSample
 3. ViewModelSample
 4. LiveDataSample
+5. DataBindingSample
 
 ## LifecycleSample
 
@@ -22,3 +23,7 @@ Android JetpackのViewModelコンポーネントを確認するためのサン�
 ## LiveDataSample
 
 Android JetpackのLiveDataコンポーネントを確認するためのサンプルをアプリ。
+
+## DataBindingSample
+
+Android JetpackのDataBindingを確認するためのサンプルをアプリ。
