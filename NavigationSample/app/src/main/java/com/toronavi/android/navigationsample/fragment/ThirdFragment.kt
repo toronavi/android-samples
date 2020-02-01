@@ -2,8 +2,8 @@ package com.toronavi.android.navigationsample.fragment
 
 import android.os.Bundle
 import android.view.View
-import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
+import androidx.appcompat.widget.AppCompatTextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
@@ -29,7 +29,7 @@ class ThirdFragment : Fragment(R.layout.fragment_third) {
                 findNavController().navigate(action)
             }
         }
-        view.findViewById<TextView>(R.id.messageView).apply {
+        view.findViewById<AppCompatTextView>(R.id.messageView).apply {
             text = args.counter.toString()
         }
     }
