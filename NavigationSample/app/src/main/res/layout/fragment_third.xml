@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/midnightblue">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textView"
         style="@style/FragmentTitleStyle"
         android:layout_width="wrap_content"
@@ -16,7 +16,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/messageView"
         style="@style/FragmentMessageStyle"
         android:layout_width="wrap_content"

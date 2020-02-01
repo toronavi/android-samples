@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/mediumvioletred">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/textView"
         style="@style/FragmentTitleStyle"
         android:layout_width="wrap_content"
