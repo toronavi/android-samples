@@ -4,11 +4,11 @@ import androidx.lifecycle.LiveData
 import com.toronavi.android.databindingsample.model.datasource.LocalUserDataSource
 import com.toronavi.android.databindingsample.model.model.User
 
-class UserRepository {
+class UserRepository : IUserRepository {
 
     private val localDataSource = LocalUserDataSource()
 
-    fun getUser(userId: String): LiveData<User> {
+    override fun getUser(userId: String): LiveData<User> {
         return localDataSource.getUser(userId)
     }
 
