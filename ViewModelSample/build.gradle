@@ -8,16 +8,14 @@ buildscript {
         kotlin_version = '1.3.61'
         nav_version = '2.1.0'
         jvm_version = '1.8'
-        nav_version = '2.1.0'
-        jvm_version = '1.8'
         lifecycle_version = '2.1.0'
     }
 
     repositories {
         google()
         jcenter()
-
     }
+    
     dependencies {
         classpath "com.android.tools.build:gradle:$build_gradle_version"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
